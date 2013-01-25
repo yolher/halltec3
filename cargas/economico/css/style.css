@@ -78,8 +78,8 @@ nav#menu ul li a:hover{
 
 #paquetes{
  	border: 0px solid;
- 	width: 85%;
- 	height: 360px;
+ 	width: 100%;
+ 	min-height: 360px;
  	margin:0px auto;
 
  }
@@ -91,10 +91,9 @@ nav#menu ul li a:hover{
  
 
 .previo{
-	margin:0px 0px 0px 3.6%;
-	border: 0px solid;
-	width:20%;
-	height:150px;
+	margin: 0px 0px 0px 15px;
+	width:23%;
+	min-height: 150px;
 	display: inline-block;
 }
 

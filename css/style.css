@@ -220,6 +220,7 @@ font-size: 16px;
 }
 
 #demos{
+
 	border: 0px solid;
 	margin:80px 0px 0px 0px;
 }
@@ -299,29 +300,31 @@ div.pie{
 }
 
 section#abajo {
-	max-width: 100%;
-	height: 599px;
+	margin: 0px 0px 0px 0px;
+	border: 0px solid;
+	width: 100%;
+	height: 595px;
 	background: url(../imagen/fondoabajo.png) no-repeat;
 }
 
-.caracteristicas{
-	width: 32%;
-	color: #fff;
+#empresa{
+	width: 100%;
 	border: 0px solid;
-	margin:80px 0px 0px 0px;
-	display: inline-block;
-	text-align: center;
-	vertical-align: top;
+	margin:0px 0px 0px 0px;
 }
 
-.division{
-	width: .2%;
-	height: 200px;
-	background: #fff;
-	border: 0px solid;
-	margin:50px 0px 0px 0px;
-	display: inline-block;
+#empresa h2{
+	color:  #fff;
+	font-size: 18px;
+	margin: 30px 0px 0px 10px;
 }
+
+#empresa p{
+ color:  #fff;
+ font-size: 14px;
+ margin: 10px;
+	}
+
 
 
 
@@ -598,6 +601,7 @@ section#descripcion div{
 }
 
 
+
 section#demos article {
 	width: 49%;
 	
@@ -642,9 +646,9 @@ div.pie{
 
 
 section#abajo {
-	width: 800px;
-	height: 374px;
-	background: url(../imagen/fondoabajo3.png) no-repeat;
+	border: 0px solid;
+	height: 550px;
+	background: url(../imagen/fondoabajo4.png) no-repeat;
 	
 	
 }

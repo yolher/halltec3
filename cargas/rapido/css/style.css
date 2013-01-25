@@ -1,0 +1,420 @@
+@font-face {
+    font-family: 'echinosparkscript';
+    src:url(../fonts/echinosparkscript.EOT);
+    src:url(../fonts/echinosparkscript.ttf);
+    src:url(../fonts/echinosparkscript.svg);
+    src:url(../fonts/echinosparkscript.woff);
+}
+
+@font-face {
+    font-family: 'harabara';
+    src:url(../fonts/harabara.EOT);
+    src:url(../fonts/harabara.ttf);
+    src:url(../fonts/harabara.svg);
+    src:url(../fonts/harabara.woff);
+}
+
+
+#contenedor{
+	width: 1024px;
+	min-height: 400px;
+	margin:  0px auto;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+#contenedor header{
+	width: 100%;
+	height: 180px;
+	background: url(../images/bg.png) no-repeat;
+
+}
+
+#contenedor header #logo{
+	width: 287px;
+	height: 58px;
+	margin: 0px auto;
+	padding: 20px 0px 0px 0px;
+	display: block;
+
+}
+
+nav#mainMenu{
+	width: 500px;
+	margin: 10px auto;
+}
+
+nav#mainMenu ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+nav#mainMenu ul li{
+	width: 23%;
+	height: 32px;
+	display: inline-block;
+	transition: 0.5s all;
+}
+
+nav#mainMenu ul li:hover{
+	background: rgba(0,0,0,0.2);
+	transition: 0.5s all;
+}
+
+nav#mainMenu ul li a{
+	text-align: center;
+	color: #fff;
+	font-family: arial;
+	font-size: 14px;
+	display: block;
+	line-height: 32px;
+	text-decoration: none;
+}
+
+/* -- estilo para las entradas de los paquetes -- */
+
+section#main{
+
+	min-height: 300px;
+	width: 100%;
+	text-align: center;
+	transition:0.5s all;
+}
+
+section#main article.paquete{
+	border:  1px solid #ededed;
+	width: 48%;
+	min-height: 200px;
+	vertical-align: top;
+	margin-top: 20px;
+	display: inline-block;
+	border-radius: 10px; 
+	margin-right: 10px;
+	background: #fbfbfb;
+}
+
+article.paquete .titulo{
+	font-family: echinosparkscript,arial;
+	color: #c70202;
+	font-size: 38px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,1);
+	font-weight: bold;
+	text-align: left;
+	padding-left:40px;
+	margin: 0px;
+	border-bottom:  1px solid #ededed;
+
+}
+
+article.paquete .descript{
+	width: 48%;
+	height: auto;
+	display: inline-block;
+	vertical-align: top ;
+	margin-top: 10px;
+
+}
+
+article.paquete .descript2{
+	width: 70%;
+	height: auto;
+ 	margin: 0px;
+ 	display: inline-block;
+ 	vertical-align: top;
+
+}
+
+article.paquete .precios2{
+	min-height: 150px;
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;	
+}
+
+article.paquete .precios2 ul{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 35px;
+
+}
+
+article.paquete .precios2 ul li{
+	list-style: none;
+		font-family: harabara,arial;
+	font-size: 18px;
+	color: #faa634;
+text-shadow: 1px 1px 1px rgba(0,0,0,1);
+text-align: right;
+}
+
+article.paquete .descript2 ul{
+	padding: 0px;
+	margin-left: 10px;
+}
+
+article.paquete .avatar{
+	margin-top: 10px;
+	width: 30%;
+	height: auto;
+	display: inline-block;
+	vertical-align: top; 
+}
+
+article.paquete .avatar img{
+	border: 2px solid #ededed;
+	padding: 1px;
+}
+
+article.paquete .descript ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+article.paquete .descript ul li,
+article.paquete .descript2 ul li{
+	color: #444444;
+	list-style: none;
+	font-family: Georgia;
+	text-align: left;
+	font-size: 16px;
+	font-style: italic;
+}
+
+
+article.paquete .descript2 ul li span{
+	color: #c70202;
+	margin-right: 5px;
+}
+article.paquete .descript2 ul li span:nth-child(2){
+	color: #faa634;
+	margin-right: 5px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,1);
+	font-family: harabara,arial;
+	font-style: normal;
+	margin-left: 80px;
+	font-size: 18px;
+	display: none;
+
+
+}
+
+
+
+.precio{
+	text-align: right;
+	width: 90%;
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	padding: 5px 0px 5px 0px;
+	height: 32px;
+	font-family: harabara,arial;
+	color: #faa634;
+	text-shadow: 1px 1px 1px rgba(0,0,0,1);
+	font-size: 28px;
+	margin: 10px auto;
+}
+
+/* -- ================ estilo para seccion de contenido ========= -- */
+
+section#content{
+
+	width: 100%;
+	min-height: 480px;
+
+	background: url(../images/bg_bj.png) no-repeat ;
+
+}
+
+section#content #contenido{
+	padding-top: 30px;
+	width: 100%;
+
+}
+
+section#content h2{
+	color:  #fff;
+	font-size: 18px;
+	margin: 30px 0px 0px 10px;
+}
+
+section#content p{
+ color:  #fff;
+ font-size: 14px;
+ margin: 10px;
+	}
+
+/* -- ================ estilo para el boton de subir ============ --- */
+
+#ariba{
+	width: 50px;
+	position:fixed;
+	right: 10px;
+	bottom: 10px;
+	display: none;
+	}
+
+#ariba a img{
+	opacity: 0.5;
+	transition: 1s all;
+}
+
+#ariba a img:hover{
+	opacity: 1;
+	transition: 1s all;
+}
+
+
+
+/* -- ================ media queries resolucion 1100px ================= -- */
+
+@media screen and (max-width: 1100px){
+	 #contenedor{
+	 	width: 95%;
+	 }
+	 section#main{
+	 	width: 100%;
+	 	transition: 0.5s all;
+	 	margin: 0px auto;
+	 }
+
+	 #contenedor header{
+		width: 100%;
+		margin: 0px auto;
+	}
+
+
+	article.paquete .descript2 ul li span:nth-child(2){
+		display: block;
+		text-align: right;
+		margin-bottom: 10px;
+	}
+
+	article.paquete .precios2 ul li{
+		display: none;
+	}
+
+	article.paquete .descript2{
+		width: 100%;
+	}
+}
+
+
+/* -- ================ media queries resolucion 900px ================= -- */
+@media screen and (max-width: 900px){
+
+	#contenedor header{
+	width: 100%;
+	height: 180px;
+	background: url(../images/bg_res.png) no-repeat;
+	}
+
+
+	article.paquete .avatar img{
+		max-width: 100%;
+		height:auto;
+	}
+
+	article.paquete .descript ul li{
+		font-size: 14px;
+	}
+	section#content{
+		background: url(../images/bg_bj_r.png) #930000 no-repeat;
+		width: 98%;
+		margin: 10px auto;
+		padding-bottom: 10px;
+	}
+
+
+
+}
+
+
+/* -- ================ media queries resolucion 735px ================= -- */
+@media screen and (max-width: 735px){
+
+	section#main article.paquete{
+		width: 48%;
+		margin: 10px 0px 0px 0px;
+		padding: 0px;
+	}
+
+
+}
+
+/* -- ================ media queries resolucion 735px ================= -- */
+@media screen and (max-width: 600px){
+
+	section#main article.paquete{
+
+		width: 90%;
+		margin: 10px 0px 0px 0px;
+		padding: 0px;
+	}
+
+		article.paquete .descript ul li{
+		font-size: 16px;
+	}
+
+	nav#mainMenu{
+		width: 90%;
+	}
+
+	nav#mainMenu ul li{
+	width: 48%;
+	font-size: 12px;
+	}
+
+
+
+
+}
+
+/* -- ================ media queries resolucion 400px ================= -- */
+@media screen and (max-width: 400px){
+
+	#contenedor{
+	 	width: 340px;
+	}
+
+	#contenedor header #logo img{
+		width: 230px;
+		margin: 0px auto;
+		display: block;
+	}
+
+	article.paquete .titulo{
+		font-size: 30px;
+		text-align: center;
+		padding:0px;
+	}
+
+	section#main article.paquete{
+		width: 300px;
+		
+	}
+
+	article.paquete .descript{
+		width: 90%;
+	}
+
+	article.paquete .descript ul li{
+		font-size: 14px;
+		text-align: center;
+	}
+
+	article.paquete .avatar img{
+		display: none;
+	}
+
+	.precio{
+		text-align: center;
+		margin-bottom: 0px;
+	}
+
+	article.paquete .descript2 ul li span:nth-child(1){
+		display:block	;
+	}
+
+
+
+
+}

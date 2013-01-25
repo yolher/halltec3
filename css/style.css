@@ -1,0 +1,720 @@
+
+
+body {
+
+
+}
+
+@font-face {
+    font-family: 'echinosparkscript';
+    src:url(../fonts/echinosparkscript.EOT);
+     src:url(../fonts/echinosparkscript.ttf);
+      src:url(../fonts/echinosparkscript.svg);
+       src:url(../fonts/echinosparkscript.woff);
+
+
+}
+
+
+section#contenedor{
+	border:0px solid;
+	
+
+}
+
+
+section#fondo {
+	border: 0px solid;
+	max-width:100%;
+	height:650px;
+	background:url(../imagen/fondo3.png) no-repeat;
+
+}
+
+
+section#logo{
+	border: 0px solid;
+}
+
+
+header {
+	width: 19.77%;
+	border:0px solid;
+	display: inline-block;
+	vertical-align: top;
+	margin:50px 0px 0px 40px;
+
+}
+header img{
+	margin:0 auto;
+}
+
+nav {
+	border:0px solid;
+	width: 39.55%;
+	display: inline-block;
+	vertical-align: top;
+	margin:50px 10px 0px 30px;
+}
+
+
+nav ul  li:hover {
+
+	background:rgba(0,0,0,.2);
+	transition: 0.5s all;
+	
+}
+nav ul  li a {
+	transition:0.1s all;
+	text-decoration:none;
+	font-family: arial;
+	font-size: 16px;
+    color: #fff;
+   
+}
+
+
+
+
+section#redes{
+
+	border: 0px solid;
+	width:27.73%;
+	height:87px;
+	margin:50px 0px 0px 40px;
+	display: inline-block;
+}
+
+#contred{
+	max-width:75.66%;
+	height:87px;
+	background: url(../imagen/bg-redes.png) no-repeat;
+	margin: 0px auto;
+}
+
+section#redes #twitter{
+	max-width: 20%;
+	display: inline-block;
+	margin-left: -20px;
+	vertical-align: top;
+}
+
+section#redes #face{
+	max-width: 70%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+section#redes #follow{
+	color: #faa634;
+	font-family: echinosparkscript,arial;
+	font-size: 45px;
+	margin: -15px 19px 0px 0px;
+	float: right;
+	text-shadow: 1px 1px 1px rgba(0,0,0,9);
+}
+
+#seguir{
+	display: none;
+}
+
+
+nav ul li {
+	display: inline-block;
+	padding: 5px;
+	
+}
+
+#paquetes {
+	height: 90%;
+	margin:50px auto 0px auto;
+	border: 0px solid;
+}
+
+
+
+.precio {
+	width: 200px;
+	display: inline-block;
+	border: 0px solid #000;
+	font-family: harabara;
+	font-size: 30px;	
+	margin:0px 0px 0px 38px;
+	color:#ac0000;
+	vertical-align: top;
+}
+.precio img {
+	border-radius: 50%;
+	width: 100%;
+	transition : 1s all;
+	border: 0px solid #000;
+	box-shadow: 0px 0px 40px #000;
+	margin:10px 0px 0px 0px;
+	
+	}
+
+
+.precio img:hover{
+	transition : 1s all;
+	transform:rotate(-360deg);
+	
+	
+}
+
+.precio span {
+	width: 100%;
+
+	border:px solid;
+	
+	display:block;
+	transition:1s all	;
+	text-align: center;
+
+
+}
+
+.precio:hover{
+	transition:0.2s all	;
+	color:#faa634;
+	text-shadow:3px 1px rgba(0,0,0,1);
+
+
+}
+
+
+
+.descripcion {
+	max-width: 100%;
+
+	border:0px solid;
+	
+	display: inline-block;
+
+
+}
+
+
+.descripcion h2 {
+	width: 100%;
+	border: 0px solid;
+	font-family:echinosparkscript,arial;
+	font-size: 35px;
+	text-align: center;
+	color:#faa634;
+	text-shadow:3px 1px rgba(0,0,0,1);
+	margin:0px 0px 	0px 0px;
+}
+
+.descripcion p{
+width: 100%;
+border: 0px solid;
+margin:0px 0px 	0px 0px;
+color:#fff;
+text-align: center;
+font-family:arial;
+font-size: 16px;
+
+
+
+}
+
+#demos{
+	border: 0px solid;
+	margin:80px 0px 0px 0px;
+}
+
+
+section#demos article {
+	width: 49%;
+	height: 350px;
+	border:0px solid;
+	display: inline-block;
+}
+
+
+div.titulo {
+	max-width: 100%;
+	height: 50px;
+	text-align: center;
+	border:0px solid;
+	font-family:echinosparkscript,arial;
+	text-shadow:1px 1px rgba(0,0,0,1);
+	font-size: 50px;
+	color:#ae0000;
+	vertical-align: top;
+
+}
+div.titulo img{
+	border: 0px solid;
+	max-width: 15%;
+	height: 50px;
+	
+}
+
+
+div.contenido{
+	font-size: 17px;
+	font-style : italic;	
+	width: 50%;
+	height: 200px;
+	border: 0px solid;
+	display: inline-block;
+	text-align: right;
+	vertical-align: top;
+	text-shadow:1px 000px rgba(0,0,0,0);
+}
+
+
+
+
+
+div.imagen{
+	width: 170px;
+	height:150px;
+	border: 0px solid;
+	display: inline-block;
+	;	
+}
+
+div.imagen img{
+	width: 100%;
+	height: 170px;
+}
+
+
+
+div.pie{
+	height:50px;
+	width: 100%;
+	text-align: center;
+	border:0px solid;
+	float:right;
+	font-size: 45px;
+	color:#faa634;
+	text-shadow:3px 1px rgba(0,0,0,1);
+
+	
+	
+}
+
+section#abajo {
+	max-width: 100%;
+	height: 599px;
+	background: url(../imagen/fondoabajo.png) no-repeat;
+}
+
+.caracteristicas{
+	width: 32%;
+	color: #fff;
+	border: 0px solid;
+	margin:80px 0px 0px 0px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+
+.division{
+	width: .2%;
+	height: 200px;
+	background: #fff;
+	border: 0px solid;
+	margin:50px 0px 0px 0px;
+	display: inline-block;
+}
+
+
+
+
+@media screen and (max-width: 1260px) {
+
+	
+
+	#paquetes{
+		width: 95%;
+		height: auto;
+		margin: 50px auto 0px auto;
+	}
+
+	.precio{
+		width: 19%;
+		height: auto;
+		margin:0 auto;
+	}
+	.precio img{
+		margin:0 auto;
+		display: block;
+		width: 80%;
+		
+	}
+
+}
+
+	@media screen and (max-width: 1050px) {
+
+
+	section#fondo {
+	
+	max-width:100%;
+	height:650px;
+	background:url(../imagen/fondo5.png) no-repeat;
+}
+
+
+	header {
+	display: block;
+	width: 100%;
+	margin: 0px auto;
+}
+
+header img{
+	width:180px;
+	height:32px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+nav {
+	display: block;
+	width: 100%;
+	margin: 0px auto;
+}
+
+nav ul li {
+	padding:3px;
+	
+}
+nav ul{
+	text-align: center;
+	margin:0 auto;
+	padding:3px;
+}
+
+section#redes{
+
+	display: none;
+	width: 100%;
+	margin: 0px auto;
+	height:54.81px;
+	
+}
+
+#contred{
+	background: url(../imagen/bg-redes3.png) no-repeat;
+	width:240px;
+	height:	70px;
+	
+}
+#twitter img{
+	width: 35px;
+	height: 26px;
+}
+
+#face img{
+	width: 120px;
+	height: 33px;
+}
+
+section#redes #twitter{
+	width: 20%;
+	margin-left: -10px;	
+}
+
+section#redes #face{
+	width: 70%;
+}
+
+section#redes #follow{	
+	font-size: 28.35px;
+}
+
+
+#seguir{
+
+display: block;
+width: 68px;
+margin: 0px auto;
+height:54.81px;
+
+}
+
+#seguir div{
+	border:0px;
+	width:32px;
+	height:32px;
+	background: #fff;
+	display: inline-block;
+	border-radius:16px;
+	vertical-align: top;
+	margin: 0px 0px 0px 0px;
+}
+
+
+
+#seguir  a img {
+display: block;
+margin:7px auto;
+
+
+}
+
+section#abajo {
+	
+	background: url(../imagen/fondoabajo2.png) no-repeat;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 800px){
+
+
+	section#fondo {
+	background: url(../imagen/fondo2.png) no-repeat;
+	width:100%;
+	height:411px;
+	
+}
+
+header {
+	
+	margin: 0px auto;
+}
+
+header img{
+	width:165.24px;
+	height:29.61px;
+
+}
+
+nav {
+
+	
+	margin: 0px auto;
+
+
+}
+
+nav ul li {
+	padding:3px;
+	
+	
+	}
+
+	nav ul li a {
+		vertical-align: top;
+		
+	}
+
+
+
+
+section#redes{
+
+	
+	
+	height:54.81px;
+	margin:0px auto;
+	
+}
+
+#contred{
+	background: url(../imagen/bg-redes2.png) no-repeat;
+	width:143.01px;
+	height:	54.81px;
+}
+#twitter img{
+	width: 27.72px;
+	height: 21.42px;
+}
+
+#face img{
+	width: 100.8px;
+	height: 29.61px;
+}
+
+section#redes #twitter{
+	width: 20%;
+	margin-left: -10px;	
+}
+
+section#redes #face{
+	width: 70%;
+}
+
+section#redes #follow{	
+	font-size: 28.35px;
+}
+
+#paquetes{
+	height: 260px;
+	margin:20px 0px 0px 0px;
+}
+#paquetes.precio {
+	width: 126px;
+	height: 126px;
+
+}
+
+#paquetes.precio img{
+	width: 113.4px;
+	height: 113.4px;
+	
+}
+
+.precio {
+	width:126px;
+	height:157.5px; 
+	font-size: 18.9px;	
+	margin:0px 0px 0px 15px;
+}
+
+
+
+section#descripcion div{
+	width: 15%;
+	margin:0px 0px 0px 20px;
+	
+
+
+}
+
+
+.descripcion h2 {
+	
+	font-size: 25px;
+	
+}
+
+.descripcion p{
+	
+	font-size: 13px;
+
+
+}
+
+
+section#demos article {
+	width: 49%;
+	
+	
+}
+
+
+div.titulo {
+	width: 100%;
+	height: 31.5px;
+	font-size: 31.5px;
+	
+
+}
+div.titulo img{
+	
+	width: 63px;
+	height: 31.5px;
+	
+}
+
+
+div.contenido{
+	font-size: 14px;
+	height: 180px;	
+	
+}
+
+
+div.imagen{
+	width: 150px;
+	height: 150px;
+}
+
+
+
+div.pie{
+	
+	font-size: 28.35px;
+	margin: 0px 0px 0px 100px;
+}
+
+
+section#abajo {
+	width: 800px;
+	height: 374px;
+	background: url(../imagen/fondoabajo3.png) no-repeat;
+	
+	
+}
+}
+
+
+
+@media screen and (max-width: 770px){
+
+	section#fondo {
+	
+	
+	height:150px;
+	background:url(../imagen/fondo4.png) no-repeat;
+}
+
+#paquetes{
+	display: none;
+}
+
+#demos{
+	
+	margin:0px 0px 0px 0px;
+}
+
+section#abajo {
+	
+	background: url(../imagen/fondoabajo2.png) no-repeat;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 630px){
+section#demos article {
+	width: 100%;
+}
+
+.caracteristicas{
+	display: block;
+
+}
+.division{
+	display: none;
+
+}
+}
+
+
+@media screen and (max-width: 330px){
+
+	div.imagen{
+	width: 46%;
+	height: 120px;
+}
+
+div.contenido{
+	height: 250px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+

@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'echinosparkscript';
+    src:url(../../../../fonts/echinosparkscript.EOT);
+     src:url(../../../../fonts/echinosparkscript.ttf);
+      src:url(../../../../fonts/echinosparkscript.svg);
+       src:url(../../../../fonts/echinosparkscript.woff);
+
+
+}
+
 #contenedor {
 	border-top:10px solid #930000;
 	border-bottom: 10px solid #930000;
@@ -77,12 +87,12 @@ nav#menu ul li a:hover{
 
 
 #contenido{
-	background:url(../imagen/baner2.jpg) no-repeat;
-	margin: 50px auto;
+	background:url(../imagen/baner4.jpg) no-repeat;
+	margin: 100px auto;
 	width: 80%;
 	height: 300px;
 	border:5px solid #930000;
-	box-shadow: 10px 10px 10px rgba(0,0,0,0.8);
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
 	
 
 }
@@ -90,6 +100,7 @@ nav#menu ul li a:hover{
 
 
 #contenido h1{
+	font-family: echinosparkscript;
 	height: 20px;
 	color:#930000;
 	text-shadow: 2px 2px 2px rgba(0,0,0,5);
